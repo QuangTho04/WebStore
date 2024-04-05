@@ -31,5 +31,4 @@
 
 ## Tác giả
 **Nguyễn Quang Thọ**
-- Facebook: [tho.ngquang04](https://www.facebook.com/tho.ngquang04)
 - Email: [quangtho2004@gmail.com](mailto:quangtho2004@gmail.com)
