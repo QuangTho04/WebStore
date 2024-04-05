@@ -3,63 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TRANG WEB BÁN HÀNG</h1>
-    <p><i>Đây là một trang web bán hàng đơn giản cho cửa hàng.</i></p>
-    
-    <h2>Chức năng</h2>
-    <ul>
-        <li><strong>Xem sản phẩm:</strong> Xem danh sách sản phẩm có thể mua.</li>
-        <li><strong>Tìm kiếm:</strong> Dễ dàng tìm kiếm sản phẩm.</li>
-        <li><strong>Thêm vào giỏ hàng:</strong> Có thể thêm sản phẩm vào giỏ hàng.</li>
-        <li><strong>Thanh toán:</strong> Giúp thanh toán các sản phẩm đã mua.</li>
-        <li><strong>Tài khoản:</strong> Có thể đăng ký tài khoản, đăng nhập, quản lý và sửa đổi thông tin cá nhân.</li>
-    </ul>
+    <div class="container">
+        <h1>Chào mừng bạn đến với trang web!</h1>
+        <form id="loginForm">
+            <h2>Đăng Nhập</h2>
+            <input type="text" id="username" placeholder="Tên đăng nhập" required>
+            <input type="password" id="password" placeholder="Mật khẩu" required>
+            <button type="submit">Đăng Nhập</button>
+        </form>
 
-    <h2>Cách sử dụng</h2>
-    <ol>
-        <li><strong>Xem sản phẩm:</strong>
-            <ul>
-                <li>Truy cập vào trang chủ của trang web để xem.</li>
-                <li>Nhấp vào sản phẩm để xem thông tin chi tiết.</li>
-            </ul>
-        </li>
-        <li><strong>Tìm kiếm:</strong>
-            <ul>
-                <li>Nhấp vào thanh tìm kiếm để tìm kiếm sản phẩm.</li>
-            </ul>
-        </li>
-        <li><strong>Thêm vào giỏ hàng:</strong>
-            <ul>
-                <li>Trên trang thông tin sản phẩm, nhấp vào nút "Thêm vào giỏ hàng".</li>
-                <li>Có thể tăng giảm số lượng sản phẩm trong giỏ hàng.</li>
-            </ul>
-        </li>
-        <li><strong>Thanh toán:</strong>
-            <ul>
-                <li>Truy cập vào giỏ hàng của bạn.</li>
-                <li>Nhấp vào nút "Thanh toán".</li>
-                <li>Chọn phương thức thanh toán và hoàn tất đơn hàng.</li>
-            </ul>
-        </li>
-        <li><strong>Tài khoản:</strong>
-            <ul>
-                <li>Đăng ký tài khoản mới hoặc đăng nhập vào tài khoản có sẵn.</li>
-                <li>Truy cập vào trang cá nhân để quản lý thông tin cá nhân.</li>
-            </ul>
-        </li>
-    </ol>
-
-    <h2>Ngôn ngữ lập trình</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-    </ul>
-
-    <h2>Tác giả</h2>
-    <p><strong>Nguyễn Quang Thọ</strong></p>
-    <p>Facebook: <a href="https://www.facebook.com/tho.ngquang04">tho.ngquang04</a></p>
-    <p>Email: quangtho2004@gmail.com</p>
+        <form id="registerForm">
+            <h2>Đăng Ký</h2>
+            <input type="text" id="newUsername" placeholder="Tên đăng nhập" required>
+            <input type="password" id="newPassword" placeholder="Mật khẩu" required>
+            <button type="submit">Đăng Ký</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
