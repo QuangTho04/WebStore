@@ -31,4 +31,4 @@
 
 ## Tác giả
 **Nguyễn Quang Thọ**
-- Email: [quangtho2004@gmail.com](mailto:quangtho2004@gmail.com)
+- Email: [quangtho2004@gmail.com](quangtho2004@gmail.com)
