@@ -7,7 +7,7 @@
     paragraph.textContent="Chào mừng bạn đến với Web Basic!"
 }*/
 
-var welcome='Xin chào. Chào mừng bạn đã đến trang web !';
+var welcome='Xin chào. Chào mừng bạn đã đến với trang web !';
 alert(welcome);
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
